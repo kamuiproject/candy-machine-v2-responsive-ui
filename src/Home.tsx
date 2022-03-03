@@ -532,15 +532,13 @@ const Home = (props: HomeProps) => {
         <main>
             <MainContainer>
                 <WalletContainer>
-                    <Logo><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"><img alt=""
-                                                                                                          src="logo.png"/></a></Logo>
+                    <Logo><a href="https://project-kamui.vercel.app/" target="_blank" rel="noopener noreferrer"><img alt=""
+                                                                                                          src="Moongirl.png"/></a></Logo>
                     <Menu>
-                        <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">Menu 1</a>
+                        <li><a style={{ color: '#000000' }} href="https://project-kamui.vercel.app/" target="_blank" rel="noopener noreferrer">Mint Page</a>
                         </li>
-                        <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 2</a></li>
-                        <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 3</a></li>
+                        <li><a style={{ color: '#000000' }} href="https://projectkamui.xyz/" target="_blank"
+                               rel="noopener noreferrer">Official Website</a></li>
                     </Menu>
                     <Wallet>
                         {wallet ?
@@ -548,18 +546,18 @@ const Home = (props: HomeProps) => {
                             <ConnectButton>Connect Wallet</ConnectButton>}
                     </Wallet>
                 </WalletContainer>
-                <ShimmerTitle>MINT IS LIVE !</ShimmerTitle>
+                <ShimmerTitle style={{ color: '#000000' }}>MINT IS LIVE !</ShimmerTitle>
                 <br/>
 
 
                 <MintContainer>
                     <DesContainer>
                         <NFT elevation={3}>
-                            <h2>My NFT</h2>
+                            <h2>Kamui</h2>
                             <br/>
                             <div><Price
                                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
-                                src="cool-cats.gif"
+                                src="Kamui.gif"
                                 alt="NFT To Mint"/></div>
                             <br/>
                             {wallet && isActive && whitelistEnabled && (whitelistTokenBalance > 0) &&
@@ -639,31 +637,16 @@ const Home = (props: HomeProps) => {
                     </DesContainer>
                     <DesContainer>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 1</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <LogoAligner><img src="Moongirl.png" alt=""></img><GoldTitle>What is Kamui?</GoldTitle></LogoAligner>
+                            <p>A collection of divine mortals preparing for the Armageddon.</p>
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 2</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <LogoAligner><img src="Moongirl.png" alt=""></img><GoldTitle>What is Supply?</GoldTitle></LogoAligner>
+                            <p>The total supply will be 555</p>
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 3</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <LogoAligner><img src="Moongirl.png" alt=""></img><GoldTitle>What is mint price?</GoldTitle></LogoAligner>
+                            <p>0.75 SOL</p>
                         </Des>
                     </DesContainer>
                 </MintContainer>
