@@ -532,10 +532,10 @@ const Home = (props: HomeProps) => {
         <main>
             <MainContainer>
                 <WalletContainer>
-                    <Logo><a href="https://project-kamui.vercel.app/" target="_blank" rel="noopener noreferrer"><img alt=""
+                    <Logo><a href="https://www.project-kamui-mint.xyz/" target="_blank" rel="noopener noreferrer"><img alt=""
                                                                                                           src="Moongirl.png"/></a></Logo>
                     <Menu>
-                        <li><a style={{ color: '#000000' }} href="https://project-kamui.vercel.app/" target="_blank" rel="noopener noreferrer">Mint Page</a>
+                        <li><a style={{ color: '#000000' }} href="https://www.project-kamui-mint.xyz/" target="_blank" rel="noopener noreferrer">Mint Page</a>
                         </li>
                         <li><a style={{ color: '#000000' }} href="https://projectkamui.xyz/" target="_blank"
                                rel="noopener noreferrer">Official Website</a></li>
